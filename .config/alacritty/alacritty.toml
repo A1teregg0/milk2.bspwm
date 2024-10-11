@@ -1,0 +1,26 @@
+# import = ["/home/anon/.config/alacritty/alacritty-theme/themes/alabaster_dark.toml"]
+# import = ["/home/anon/.config/alacritty/alacritty-theme/themes/github_light.toml"]
+# import = ["/home/anon/.config/alacritty/vscode.toml"]
+import = ["/home/anon/.config/alacritty/alacritty-theme/milk2.toml"]
+
+[font]
+size = 9.0
+offset.x = 0  # For letter spacing (default: 0)
+offset.y = 5  # For line spacing (default: 0)
+
+[font.normal]
+family = "Press Start 2P"
+# family = "Fixed"
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "Return"
+mods = "Control|Shift"
+
+[window]
+dynamic_padding = true
+
+[window.padding]
+x = 10
+y = 11
+
